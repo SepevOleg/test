@@ -1,0 +1,137 @@
+.technology__info{
+    width: 100%;
+    height: 1200px;
+}
+.technology__product{
+    display: flex;
+}
+.technology__p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #222222;
+}
+.technology__info__product{
+    padding: 177px;
+    
+}
+.technology__info__product h4{
+    width: 409px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    padding-top: 5px;
+}
+.technology__info__product p{
+    width: 403px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 15px;
+    color: #666666;
+}
+.technology_img{
+    padding-top: 100px;
+    margin-left: 104px;
+    z-index: 1;
+    position: absolute;
+    left: 720px;
+}
+.speed-security__product{
+    width: 100%;
+    height: 644px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    z-index: 10;
+    position: absolute;
+}
+.technology_img-twy{
+    padding-top: 70px;
+    margin-left: 104px;
+    z-index: -1;
+    left: 10px;
+}
+@media screen and (max-width: 1200px){
+    .technology__info{
+        height: 1280px;
+    }
+    .technology__info__product p {
+        font-size: 16px;
+        padding-left: 50px;
+    }
+    .technology__info__product h4 {
+        width: 522px;
+        font-size: 26px;
+        padding-left: 50px;
+    }
+    .technology_img img {
+        padding-top: 115px;
+        width: 80%;
+        height: 55%;
+    }
+    .technology_img-twy {
+        padding-top: 35px;
+    }
+}
+@media screen and (max-width: 960px){
+    .technology__info {
+        width: 100%;
+        height: 826px;
+    }
+    .technology_img  {
+        display: none;
+    }
+    .technology_img-twy {
+        display: none;
+    }
+    .technology__info__product {
+        padding: 0px;
+    }
+    .technology__product  {
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    .technology__info__product p {
+        padding-top: 36px;
+        font-size: 19px;
+        width: 500px;
+        padding-left: 50px;
+        padding-bottom: 4px;
+        }
+    .technology__info__product h4 {
+        font-size: 35px;
+    }
+}   
+@media screen and (max-width: 720px){
+    .technology__info__product h4 {
+        font-size: 24px;
+    }
+    .technology__info__product h4 {
+        width: 432px;
+        font-size: 24px;
+    }
+  }
+@media screen and (max-width: 480px){
+    .technology__info {
+        height: 1050px;
+    }
+    .technology__info__product {
+        width: 100%;
+    }
+    .technology__info__product p {
+        font-size: 16px;
+        width: 80%;
+    }
+    .technology__info__product h4 {
+        font-size: 15px;
+        width: 63%;
+        margin-bottom: 5%;
+    }
+    .technology__info__product .technology__p {
+        font-size: 11px;
+    }
+}

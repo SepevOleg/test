@@ -1,0 +1,132 @@
+.main{
+    width: 100%;
+    height: 650px;
+    background-image: url(../main-img/fone.svg);
+    background-repeat: no-repeat no-repeat;
+    background-position: 73% -130%;
+    
+}
+.main-row{
+    padding-top: 145px;
+    padding-left: 78px;
+}
+.main-img-logo{
+    width: 20%;
+    height: 7%;
+}
+.main-header{
+    width: 40%;
+    height: 19%;
+}
+.main-header h1{
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    margin: 0 0;
+}
+.main-text{
+    width: 80%;
+    height: 8%;
+}
+.main-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 15px;
+}
+.container-buttons{
+    display: flex;
+    padding-top: 20px;
+}
+.container-buttons > * + * {
+    margin-left: 10px
+}
+.btn-one{
+    width: 40%;
+    background-color: #222222;
+    border-radius: 7%;
+    padding: 10px 15px 12px 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: opacity 0,3s ease;
+}
+.btn-one:hover{
+    opacity: 0.9;
+}
+.btn-twy{
+    width: 40%;
+    background-color: #222222;
+    border-radius: 7%;
+    padding: 10px 15px 12px 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: opacity 0,3s ease;
+}
+.btn-twy:hover{
+    opacity: 0.9;
+}
+.container-buttons span{
+    font-weight: 400;
+    font-size: 14px;
+    color:#FFFFFF;
+    letter-spacing: 2px;
+}
+@media screen and (max-width: 1200px){
+    .main {
+        background-position: 78% -117%;
+    }
+    .main-header {
+        width: 53%;
+    }
+}
+@media screen and (max-width: 960px){
+    .main {
+        background-image: none;
+    }
+    .main-header{
+        width: 103%;
+        z-index: 10;
+    }
+    .main-row {
+        padding-top: 172px;
+        padding-left: 134px;
+    }
+}
+@media screen and (max-width: 720px){
+    .main-header {
+        width: 107%;
+        z-index: 10;
+    }
+    .main-row {
+        padding-top: 152px;
+        padding-left: 8px;
+    }
+    .main-img-logo {
+        width: 20%;
+        height: 7%;
+        padding-left: 34px;
+    }
+}
+@media screen and (max-width: 480px){
+.main-row {
+    padding-top: 84px;
+    padding-left: 8px;
+    }
+    .main-img-logo {
+        padding-left: 14px;
+    }
+    .main-header {
+        width: 122%;
+    }
+    .main-header h1 {
+        font-size: 39px
+    }
+    .btn-one {
+        width: 45%;
+        padding: 10px 5px 6px 5px;
+    }
+    .btn-twy {
+        width: 50%;
+        padding: 10px 5px 6px 5px;
+    }
+}

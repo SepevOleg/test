@@ -1,0 +1,124 @@
+.testimonials{
+    width: 100%;
+    height: 554px;
+    background-color: #F2F2F2;
+}
+.testimonials__tex{
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.testimonials__tex h4{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.testimonials__menu{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.testimonials__reviews {
+    margin-top: 41px ;
+    width: 379px;
+    height: 224px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    align-items: center;
+}
+.testimonials__reviews p{
+    width: 296px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.testimonials__avatar{
+    padding: 20px 194px 30px 38px;
+    display: flex;
+}
+.angels_top{
+    padding-top: 44px;
+}
+.testimonials__initial{
+    padding-top: 4px;
+    padding-left: 10px;
+}
+.testimonials__initial h5{
+    width: 120px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1B1A1A;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 960px){
+
+}
+@media screen and (max-width: 720px){
+
+}
+@media screen and (max-width: 480px){
+  .pricing .container {
+      width: 100%;
+      padding: 0 ;
+  }
+  .pricing {
+      height: 1425px;
+  }
+}
+@media screen and (max-width: 1200px){
+    .testimonials {
+        height: 800px;
+    }
+}
+@media screen and (max-width: 960px){
+    .testimonials__menu{
+        flex-wrap:wrap;
+    }
+    .testimonials {
+        height: 1110px;
+    }
+}
+@media screen and (max-width: 720px){
+    .testimonials {
+        height: 1100px;
+    }
+    .testimonials__menu {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .paragraph__one {
+        font-size: 23px;
+    }
+    .paragraph__twy {
+        font-size: 18px;
+    }
+    .testimonials__reviews {
+        width: 430px;
+    }
+}
+@media screen and (max-width: 480px){
+    .testimonials {
+        height: 1100px;
+    }
+    .testimonials__menu {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .paragraph__one {
+        font-size: 23px;
+    }
+    .paragraph__twy {
+        font-size: 18px;
+    }
+    .testimonials__reviews {
+        width: 310px;
+    
+    }
+}
